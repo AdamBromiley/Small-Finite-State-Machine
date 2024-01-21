@@ -43,7 +43,7 @@ int main(void) {
         &fsm,
         transition_table,
         sizeof(transition_table) / sizeof(StateTransition),
-        wifi_init_state,
+        init_state,
         NULL
     )) {
         return 1;
